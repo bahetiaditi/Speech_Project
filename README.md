@@ -41,23 +41,11 @@ tqdm>=4.62.0
 librosa>=0.8.1
 ```
 
-## Installation
-
-```bash
-git clone https://github.com/username/lora-sepformer.git
-cd lora-sepformer
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### Dataset Preparation
 
 The code supports any dataset of audio files for mixture creation. Files should be WAV format in a single directory:
-
-```bash
-python prepare_dataset.py --audio_folder /path/to/audio_files --output_folder data/processed
-```
 
 ### Training
 
