@@ -127,53 +127,8 @@ SCI = |X_ref·X_est*| / (||X_ref||·||X_est|| + ε)
 where X_ref and X_est are the STFTs of the reference and estimated signals.
 
 ## Results
-
-### SI-SDR Loss Training
-
-| Dataset | Metric | Pre-trained | LoRA Fine-tuned | Improvement |
-|---------|--------|-------------|-----------------|-------------|
-| Dataset 1 | SI-SDR | | | |
-| | SCI | | | |
-| | PESQ | | | |
-| | STOI | | | |
-| Dataset 2 | SI-SDR | | | |
-| | SCI | | | |
-| | PESQ | | | |
-| | STOI | | | |
-
-### SCI Loss Training
-
-| Dataset | Metric | Pre-trained | LoRA Fine-tuned | Improvement |
-|---------|--------|-------------|-----------------|-------------|
-| Dataset 1 | SI-SDR | | | |
-| | SCI | | | |
-| | PESQ | | | |
-| | STOI | | | |
-| Dataset 2 | SI-SDR | | | |
-| | SCI | | | |
-| | PESQ | | | |
-| | STOI | | | |
-
-## Ablation Studies
-
-### Effect of LoRA Rank
-
-| Rank | Trainable Parameters | SI-SDR | Training Time |
-|------|----------------------|--------|---------------|
-| 1    | | | |
-| 2    | | | |
-| 4    | | | |
-| 8    | | | |
-| 16   | | | |
-
-### Effect of LoRA Alpha
-
-| Alpha | SI-SDR | SCI | Notes |
-|-------|--------|-----|-------|
-| 4     | | | |
-| 8     | | | |
-| 16    | | | |
-| 32    | | | |
+![Results](images/result1.png)
+![Results](images/result2.png)
 
 ## Limitations and Future Work
 
